@@ -49,11 +49,13 @@ def baselineFile = file("$rootDir/config/detekt/baseline.xml")
 def kotlinFiles = "**/*.kt"
 def resourceFiles = "**/resources/**"
 def buildFiles = "**/build/**"
+def testFiles = "**/test/**"
+def appFiles = "**/app/**"
 
 tasks.register("detektAll", io.gitlab.arturbosch.detekt.Detekt) {
     def autoFix = project.hasProperty('detektAutoFix')
 
-    description = "Custom DETEKT build for all modules"
+    description = "DETEKT build for all modules"
     parallel = true
     ignoreFailures = false
     autoCorrect = autoFix
@@ -62,18 +64,18 @@ tasks.register("detektAll", io.gitlab.arturbosch.detekt.Detekt) {
     baseline.set(baselineFile)
     config.setFrom(configFile)
     include(kotlinFiles)
-    exclude("**/build/**")
-    exclude("**/test/**/*.kt")
-    exclude("app/**")
+    exclude(buildFiles)
+    exclude(testFiles)
+    exclude(appFiles)
     reports {
         html.enabled = true
         xml.enabled = false
         txt.enabled = false
     }
 }
-// exclude app folder
+
 tasks.register("detektGenerateBaseline", io.gitlab.arturbosch.detekt.DetektCreateBaselineTask) {
-    description = "Custom DETEKT build to build baseline for all modules"
+    description = "Build baseline for all modules\""
     parallel = true
     ignoreFailures = false
     buildUponDefaultConfig = true

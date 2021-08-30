@@ -54,7 +54,6 @@
     <ID>FinalNewline:com.qonversion.android.sdk.ad.AdvertisingProvider.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.ad.LoadStoreProductsState.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.api.Api.kt:1</ID>
-    <ID>FinalNewline:com.qonversion.android.sdk.api.ApiErrorMapper.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.api.ApiHeadersProvider.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.api.ApiHelper.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.api.ApiHelperTest.kt:1</ID>
@@ -161,7 +160,7 @@
     <ID>FinalNewline:com.qonversion.android.sdk.validator.TokenValidator.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.validator.Validator.kt:1</ID>
     <ID>FinalNewline:com.qonversion.android.sdk.validator.util.kt:1</ID>
-    <ID>ForbiddenComment:AttributionRequestTest.kt$AttributionRequestTest$// TODO: Update test for new AttributionRequest format</ID>
+    <ID>ForbiddenComment:AttributionRequestTest.kt$AttributionRequestTest$// TODO: Update test gfhgjhgjh</ID>
     <ID>ForbiddenComment:EnvironmentRequestTest.kt$EnvironmentRequestTest$// TODO: Update test for new Environment format</ID>
     <ID>ForbiddenComment:GooglePurchaseConverterTest.kt$GooglePurchaseConverterTest$// TODO: Update test for new Purchase fields</ID>
     <ID>ForbiddenComment:InAppRequestTest.kt$InAppRequestTest$// TODO: Update test for new InApp format</ID>
@@ -183,27 +182,6 @@
     <ID>LongParameterList:QonversionRepository.kt$QonversionRepository$( installDate: Long, purchase: Purchase, experimentInfo: QExperimentInfo?, qProductId: String?, callback: QonversionLaunchCallback, retries: Int = MAX_RETRIES_NUMBER )</ID>
     <ID>LongParameterList:QonversionRepository.kt$QonversionRepository$( private val api: Api, private val environmentProvider: EnvironmentProvider, private val sdkVersion: String, private val key: String, private val isDebugMode: Boolean, private val logger: Logger, private val purchasesCache: PurchasesCache, private val errorMapper: ApiErrorMapper, private val preferences: SharedPreferences )</ID>
     <ID>LongParameterList:RepositoryModule.kt$RepositoryModule$( retrofit: Retrofit, environmentProvider: EnvironmentProvider, config: QonversionConfig, logger: Logger, purchasesCache: PurchasesCache, apiErrorMapper: ApiErrorMapper, sharedPreferences: SharedPreferences )</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10002</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10003</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10004</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10005</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10006</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$10008</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20005</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20006</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20007</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20008</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20010</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20011</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20012</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20013</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20014</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20201</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20203</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20210</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20300</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20303</ID>
-    <ID>MagicNumber:ApiErrorMapper.kt$ApiErrorMapper$20399</ID>
     <ID>MagicNumber:GooglePurchaseConverter.kt$GooglePurchaseConverter$3</ID>
     <ID>MagicNumber:GooglePurchaseConverter.kt$GooglePurchaseConverter$30</ID>
     <ID>MagicNumber:GooglePurchaseConverter.kt$GooglePurchaseConverter$365</ID>
@@ -230,8 +208,6 @@
     <ID>MagicNumber:QTrialDuration.kt$QTrialDuration.Year$8</ID>
     <ID>MagicNumber:utils.kt$1000</ID>
     <ID>MatchingDeclarationName:util.kt$Util</ID>
-    <ID>MaxLineLength:ApiErrorMapper.kt$ApiErrorMapper$20201 -&gt; "For more details please check our guide [Troubleshooting](https://documentation.qonversion.io/docs/troubleshooting)"</ID>
-    <ID>MaxLineLength:ApiErrorMapper.kt$ApiErrorMapper$20203 -&gt; "Possible reasons for this error are fraud purchases and incorrect configuration of the project key in the Qonversion Dashboard"</ID>
     <ID>MaxLineLength:AppComponent.kt$AppComponent$@Component(modules = [AppModule::class, RepositoryModule::class, NetworkModule::class, ManagersModule::class, ServicesModule::class])</ID>
     <ID>MaxLineLength:AutomationsEventMapperTest.kt$AutomationsEventMapperTest.GetEventFromRemoteMessage$"{\"name\": \"subscription_billing_retry_entered\", \"happened\": $timeInSec}" to AutomationsEventType.SubscriptionBillingRetry</ID>
     <ID>MaxLineLength:AutomationsEventMapperTest.kt$AutomationsEventMapperTest.GetEventFromRemoteMessage$"{\"name\": \"subscription_canceled\", \"happened\": $timeInSec}" to AutomationsEventType.SubscriptionCanceled</ID>
@@ -306,8 +282,6 @@
     <ID>MaximumLineLength:com.qonversion.android.sdk.QonversionRepository.kt:322</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.QonversionRepository.kt:328</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.QonversionRepository.kt:509</ID>
-    <ID>MaximumLineLength:com.qonversion.android.sdk.api.ApiErrorMapper.kt:117</ID>
-    <ID>MaximumLineLength:com.qonversion.android.sdk.api.ApiErrorMapper.kt:118</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.automations.AutomationsEventMapperTest.kt:105</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.automations.AutomationsEventMapperTest.kt:106</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.automations.AutomationsEventMapperTest.kt:107</ID>
@@ -354,13 +328,11 @@
     <ID>MaximumLineLength:com.qonversion.android.sdk.storage.SharedPreferencesCacheTest.kt:227</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.storage.util.kt:121</ID>
     <ID>MaximumLineLength:com.qonversion.android.sdk.storage.util.kt:122</ID>
-    <ID>NestedBlockDepth:ApiErrorMapper.kt$ApiErrorMapper$fun &lt;T&gt; getErrorFromResponse(value: Response&lt;T&gt;): QonversionError</ID>
     <ID>NewLineAtEndOfFile:ActionPointScreen.kt$com.qonversion.android.sdk.dto.automations.ActionPointScreen.kt</ID>
     <ID>NewLineAtEndOfFile:ActionPoints.kt$com.qonversion.android.sdk.dto.ActionPoints.kt</ID>
     <ID>NewLineAtEndOfFile:ActivityComponent.kt$com.qonversion.android.sdk.di.component.ActivityComponent.kt</ID>
     <ID>NewLineAtEndOfFile:AdvertisingProvider.kt$com.qonversion.android.sdk.ad.AdvertisingProvider.kt</ID>
     <ID>NewLineAtEndOfFile:Api.kt$com.qonversion.android.sdk.api.Api.kt</ID>
-    <ID>NewLineAtEndOfFile:ApiErrorMapper.kt$com.qonversion.android.sdk.api.ApiErrorMapper.kt</ID>
     <ID>NewLineAtEndOfFile:ApiHeadersProvider.kt$com.qonversion.android.sdk.api.ApiHeadersProvider.kt</ID>
     <ID>NewLineAtEndOfFile:ApiHelper.kt$com.qonversion.android.sdk.api.ApiHelper.kt</ID>
     <ID>NewLineAtEndOfFile:ApiHelperTest.kt$com.qonversion.android.sdk.api.ApiHelperTest.kt</ID>
@@ -656,8 +628,6 @@
     <ID>SpacingAroundParens:com.qonversion.android.sdk.storage.SharedPreferencesCacheTest.kt:212</ID>
     <ID>SpacingAroundParens:com.qonversion.android.sdk.storage.SharedPreferencesCacheTest.kt:243</ID>
     <ID>SpacingAroundParens:com.qonversion.android.sdk.storage.SharedPreferencesCacheTest.kt:262</ID>
-    <ID>StringTemplate:com.qonversion.android.sdk.api.ApiErrorMapper.kt:95</ID>
-    <ID>SwallowedException:ApiErrorMapper.kt$ApiErrorMapper$catch (e: JSONException) { errorMessage = "$ERROR=failed to parse the backend response" }</ID>
     <ID>SwallowedException:AutomationsEventMapper.kt$AutomationsEventMapper$catch (e: JSONException) { logger.release("getEventFromRemoteMessage() -&gt; Failed to retrieve event that triggered push notification") }</ID>
     <ID>SwallowedException:EnvironmentProvider.kt$EnvironmentProvider$catch (throwable: Throwable) { UNKNOWN }</ID>
     <ID>SwallowedException:PurchasesCache.kt$PurchasesCache$catch (e: IOException) { setOf() }</ID>
