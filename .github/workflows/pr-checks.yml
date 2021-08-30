@@ -1,15 +1,18 @@
 name: Tests
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+on: push
+#  pull_request:
+#    types: [opened, synchronize, reopened]
 
 jobs:
-  build:
+
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
+    - name: Detekt
+      run: ./gradlew detektAll
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
